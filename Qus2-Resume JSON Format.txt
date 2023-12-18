@@ -1,0 +1,61 @@
+2.Create Your Own resume date in JSON format.
+
+let myResume = {
+    "basics": {
+      "name": "Rengarajan S S",
+      "email": "rengarajan26061996@gmail.com",
+      "phone": 9976431900,
+      "degree": "Bsc(IT)",
+      "location": {
+        "address": "Chinnakanmai, Madurai",
+        "postalCode": 625009,
+        "city": "Madurai",
+        "countryCode": "India",
+        "region": "Tamil Nadu"
+      },
+      "profiles": [
+        {
+          "Linkedin": "linkedin.com/in/rengarajan-s-s-396001290",
+          "github": "https://github.com/Renga2606",
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "KFIN technologies",
+        "position": "Senior Associate",
+        "website": "https://www.kfintech.com/",
+        "startDate": "21-11-2017",
+        "endDate": "Present",
+        "summary": "Document and KYC verification and Operations."
+      }  
+    ],
+
+    "education": [
+        {
+        "institution": "Sourashtra College",
+        "studyType": "Full Time",
+        "startDate": "2013",
+        "endDate": "2016",
+        "courses": "B.Sc(IT)"
+        }
+        ],
+    "skills": [
+      {
+        "name": "JavaScript,C,C++,HTML,CSS",
+        "level": "Intermediate",
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,English,Sourashtra",
+        "fluency": "Good"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Learn New technology,cricket,Football"
+      }
+        ]
+    }
+console.log(myResume);
